@@ -1,2 +1,2 @@
 # musician-tool
-soft for musician and make their like small easy 
+soft for musician and make their life small easy 
