@@ -1,23 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transposer</title>
+    <title>Церква "Світло Життя"</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-    <h1> 
-        Who we ?
-    </h1>
-    <p>
-       We're a new startup built to help musicians and sound engineers.
-How exactly do we help?
-    </p>
-    <ol> 
-        <li> We provide a database of chords and lyrics — accessible offline, transposable to any key, </li>
-        <li> With the ability to add your own notes.</li>
-        <li>You can also compose custom song lists for concerts, services, and rehearsals.</li>
-        <li>And with a built-in metronome, practicing and rehearsing together becomes easier and more precise than ever.</li>
-    </ol>
-    
+<body>
+    <header>
+        <a href="/" class="header__logo">
+            <img src="1x/logo.png" alt="Church Logo">
+        </a>
+        <h1>Церква "Світло Життя"</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#schedule">Розклад</a></li>
+                <li><a href="#contact">Контакти</a></li>
+                <li><a href="#donations">Пожертви</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Ласкаво просимо</h2>
+            <p>Вітаємо вас на сайті церкви "Світло Життя".
+                Будемо раді бачити вас на наших недільних Богослужіннях
+                <span class="badge">Щонеділі о 10:30</span>
+            </p>
+        </section>
+
+        <section id="about" class="about">
+    <h2>Про нас</h2>
+
+    <div class="about__grid">
+        <div class="about__text">
+            <p>
+                Церква "Світло Життя" створена для того, щоб світити —
+                нести світло Христа у наше місто, наші родини та серця людей.
+            </p>
+            <p>
+                Бажання нашої церкви — зрощувати учнів та майбутніх лідерів, які будуть
+                служити Богу та служити іншим, несучи любов і правду Євангелія у кожну
+                сферу свого життя.
+            </p>
+
+            <blockquote class="principle">
+                <p>"Навчай, Споряджай, Відправляй."</p>
+            </blockquote>
+
+            <p class="badge">Церква заснована 3 січня 2021 року</p>
+        </div>
+
+        <img src="1x/community.jpeg" alt="Спільнота церкви Світло Життя" class="about__image">
+    </div>
+</section>
+
+        <section id="schedule" class="schedule">
+    <h2>Розклад служінь</h2>
+    <ul>
+        <li>Недільне служіння - 10:30</li>
+        <li>Молодіжне служіння - 16:00 (Неділя)</li>
+        <li>Молитовне служіння - 8:00 (Середа)</li>
+        <li>Чоловіче служіння - раз на місяць (Середа)</li>
+        <li>Жіноче служіння - раз на місяць (Вівторок)</li>
+    </ul>
+</section>
+       <section id="contact" class="contact">
+    <h2>Контакти</h2>
+
+    <div class="contact__grid">
+        <div class="contact__info">
+            <address>
+                <p>Адреса: м. Вінниця, вул. Костянтина Василенка, 9</p>
+            </address>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/light_of_life_vin" target="_blank" rel="noopener noreferrer" class="btn--instagram">
+                    Instagram церкви
+                </a>
+                <a href="https://www.instagram.com/_total_shine_" target="_blank" rel="noopener noreferrer" class="btn--instagram">
+                    Instagram молоді
+                </a>
+                <a href="https://www.youtube.com/@Церква_Світло_Життя"
+                 target="_blank" 
+                 rel="noopener noreferrer" class="btn--instagram">
+                    YouTube
+                </a>
+            </div>
+
+            <a href="https://www.google.com/maps/search/?api=1&query=Вінниця+вулиця+Костянтина+Василенка+9" 
+            target="_blank" 
+            rel="noopener noreferrer" class="btn--maps">
+                Прокласти маршрут
+            </a>
+        </div>
+
+        <div class="contact__map">
+            <iframe src="https://www.google.com/maps?q=Вінниця,вулиця Костянтина Василенка 9&output=embed" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+    </div>
+</section>
+        <section id="donations" class="donations">
+            <h2>Пожертви</h2>
+            <p>Ваша пожертва допомагає нам служити та нести світло далі.</p>
+
+            <img src="1x/donations.png"
+                 alt="Реквізити для пожертв: номер карти, отримувач, призначення платежу"
+                 class="donations__image">
+
+            <div class="donations__details">
+    <p class="donations__details-label">Реквізити для копіювання:</p>
+    <p><strong>IBAN:</strong> UA19 3052 9900 0002 6003 0361 2062 0</p>
+    <p><strong>Отримувач:</strong> РО РГЦ ЄХБ «Світло Життя»</p>
+</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2026 Церква "Світло Життя". Усі права захищені.</p>
+    </footer>
 </body>
 </html>
